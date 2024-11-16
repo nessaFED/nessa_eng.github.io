@@ -1,0 +1,68 @@
+body {
+   margin: 0;
+   background-color: black;
+   width: 100%; 
+   height: 100%;
+   font-family: 'Rubik Bubbles';
+   color: white;
+   font-size: 30px;
+}
+header {
+   display: flex;
+   justify-content: space-between;
+}
+footer {
+   display: flex;
+   justify-content: space-evenly;
+   font-size: 20px;
+   margin: 40px;
+}
+h1 {
+   font-size: 50px;
+}
+h3 {
+   margin-top: 0px;
+   margin-left: 10px;
+}
+ul {
+list-style-type: "💭";
+}
+a {
+   color: white;
+   text-decoration: none;
+}
+.logo {
+margin: 10px;
+}
+.icon { 
+   width: 25px; 
+   height: 25 px;
+   margin: 10px;
+
+}
+.two_parts {
+display: flex;
+justify-content: center;
+}
+.three_parts {
+   display: flex;
+   justify-content: space-evenly;
+}
+.pink {
+   background-color: rgb(253, 204, 224);
+   background-image: url("translucent-image.png");
+   -webkit-text-stroke: 1px rgb(227, 56, 171);
+   
+}
+.black {
+   background-color: black;
+   color: white;
+}
+.card {
+   background-color: rgb(253, 204, 224);
+   border-radius: 10px;
+   -webkit-text-stroke: 1px rgb(227, 56, 171);
+   text-align: center;
+   margin: 5px 20px 40px 20px;
+   padding: 10px 10px 10px 10px;
+}
